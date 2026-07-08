@@ -1,6 +1,3 @@
-# Real-Time Distance Estimation using YOLO
-
-I built this project because I wanted to answer a simple question can a regular laptop webcam tell you how far away something is? Turns out, yes it can.
 
 This system uses your webcam to detect objects in real time and estimates how far each one is from the camera. No special hardware, no depth sensors, just a webcam and math.
 
