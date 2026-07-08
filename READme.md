@@ -54,7 +54,7 @@ The YOLOv8 model downloads automatically on first run (~6MB). Press **Q** to qui
 
 Going into this I understood the theory of object detection but hadn't built anything that ran in real time before. The challenging part wasn't the detection itself YOLOv8 handles that well it was figuring out the distance estimation from a single monocular camera without any depth sensor.
 
-The focal length approach has limitations. It assumes objects are facing the camera directly and relies on average known widths which vary in real life. A person standing sideways will appear narrower than 50cm, which throws off the estimate. Improving this with stereo vision or a depth camera like Intel RealSense would give much more accurate results — that's the natural next step for this project.
+The focal length approach has limitations. It assumes objects are facing the camera directly and relies on average known widths which vary in real life. A person standing sideways will appear narrower than 50cm, which throws off the estimate. Improving this with stereo vision or a depth camera like Intel RealSense would give much more accurate results that's the natural next step for this project.
 
 ---
 
